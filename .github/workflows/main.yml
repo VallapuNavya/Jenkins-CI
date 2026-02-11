@@ -35,5 +35,6 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/nodejs-helloworld:latest
-            ${{ secrets.DOCKER_USERNAME }}/nodejs-helloworld:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/jenkins-ci:latest
+            ${{ secrets.DOCKER_USERNAME }}/jenkins-ci:${{ github.sha }}
+
