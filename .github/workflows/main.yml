@@ -35,6 +35,6 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/jenkins-ci:latest
-            ${{ secrets.DOCKER_USERNAME }}/jenkins-ci:${{ github.sha }}
+            navyavallapu/jenkins-ci:latest
+            navyavallapu/jenkins-ci:${{ github.sha }}
 
